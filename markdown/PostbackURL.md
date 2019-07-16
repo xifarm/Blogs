@@ -1,14 +1,14 @@
-Ins老王网赚知识总结(1): URL传参(含Postback)、Offer cloked事件
+这几个细节让我几损失了100$: URL传参(含Postback)、Offer cloked事件
 
 最近网赚进展迅速，几个知识点测试通过了，真正的Media Buy了。 
-本文就遇到的几个比较绕的知识点进行梳理，和大家分享。
+本文就遇到的几个比较绕的知识点进行梳理，和大家分享, 当然是为了少走弯路，少burn Traffic。
 
 #知识点1： URL传参与Postback
 URL参数传递分形参和实参。
 
 * 形参对应Parameter: 接收方定义和解析
 * 实参对应Token： 发送方定义和实例化
-* 
+  
 eg, https://www.xifarm.com/affid=111&offID=222&clickID={CID}
 
 clickID就是接收方解析的形参，{CID}就是发送方实例化数据的实参
@@ -93,3 +93,4 @@ Media Buy, 我们自然希望导入流量100%不要被Cloaked。
 
 从Voluum这个事情上，再次证明Affiliate是个有趣的行业，它适合有学习、分享意愿的从业，但是不要盲从，选择适合自己的，Tracking的核心是数据中心，流量数据从这里过、Postback数据也在这集合，多个Campaign可以横向比较offer、traffic，在刚起步的早期，数据量很小(如一个月30万流量)，选择哪个平台都差不多，网络中无非用的Http get、post方式传数据，各家不太可能有太大差距(网络时延和点损)。 因为，你面对的是海量的互联网数据，几百刀也仅仅是“管中窥豹”而已。
 
+总结：再有能力的人，如若精力分散，必将一事无成。
